@@ -63,7 +63,7 @@ public class ButtonFrame extends JFrame {
   
     private class ButtonHandler implements ActionListener{
                   
-
+           String   nome = p.getText();
 
         String string = null;
         public void actionPerformed(ActionEvent event){
